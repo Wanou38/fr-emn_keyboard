@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg839" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" sodipodi:docname="Clavier EMN.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview841" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="true" width="7mm" inkscape:zoom="1.4824" inkscape:cx="262.75" inkscape:cy="254.65" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="vk-oem102" inkscape:snap-text-baseline="true" height="52mm" inkscape:object-paths="true" inkscape:snap-smooth-nodes="true">
+      <inkscape:grid type="xygrid" id="grid_1mm_4mm" visible="true" empspacing="4" />
+      <inkscape:grid type="xygrid" id="grid_0.25mm_1mm" visible="false" spacingx="0.25" spacingy="0.25" empspacing="4" />
+   </sodipodi:namedview>
+   <defs id="defs2">
+      <style id="style_std">
+        path {
+          color:#000000;
+          fill:none;
+          stroke:#000000;
+          stroke-opacity:1;
+          stroke-width:0.3;
+          stroke-dasharray:none;
+          stroke-linecap:round;
+          stroke-linejoin:round;
+          stroke-miterlimit:10;
+        }
+        rect {
+          color:#000000;
+          fill:none;
+          stroke:#000000;
+          stroke-opacity:1;
+          stroke-width:0.3;
+          stroke-dasharray:none;
+          stroke-linecap:round;
+          stroke-linejoin:round;
+          stroke-miterlimit:10;
+        }
+        .line-strong {
+          stroke-opacity:1;
+          stroke-width:0.5;
+        }
+        .line-normal {
+          stroke-opacity:1;
+          stroke-width:0.3;
+        }
+        .line-thin {
+          stroke-opacity:1;
+          stroke-width:0.1;
+        }
+        .line-dash {
+          stroke-dasharray:1.5,1.5;
+        }
+        .line-dash-small {
+          stroke-dasharray:0.9,0.9;
+        }
+        .line-axle {
+          stroke-opacity:1;
+          stroke-width:0.1;
+          stroke-dasharray:4,2,1,2;
+        }
+        .line-axle-small {
+          stroke-opacity:1;
+          stroke-width:0.1;
+          stroke-dasharray:2,1,0.5,1;
+        }
+        .line-none { stroke:none; }
+        .system-key {
+          fill:#c0c0c0;
+          fill-opacity:1;
+        }
+        .frame-major {
+          fill:#004990;
+          fill-opacity:1; 
+          stroke:#004990;
+          stroke-opacity:1;
+          stroke-width:0.3;
+        }
+        .frame-minor {
+          fill:#22bcb9;
+          fill-opacity:1;
+          stroke:#22bcb9;
+          stroke-opacity:1;
+          stroke-width:0.3;
+        }
+        .frame-content {
+          fill:#eeeeee;
+          fill-opacity:1;
+          stroke:#888888;
+          stroke-opacity:1;
+          stroke-width:0.3;
+        }
+        .frame-hightlight {
+          fill:#dddddd;
+          fill-opacity:1;
+          stroke:none;
+          stroke-opacity:1;
+          stroke-width:0;
+        }
+         {
+          -inkscape-font-specification:'DejaVu Sans, Normal';
+          fill:#000000;
+          stroke:none;
+          font-family:'DejaVu Sans';
+          font-size:3;
+          font-stretch:normal;
+          font-style:normal;
+          font-variant:normal;
+          font-variant-caps:normal;
+          font-variant-east-asian:normal;
+          font-variant-ligatures:normal;
+          font-variant-numeric:normal;
+          font-weight:normal;
+          letter-spacing:0px;
+          line-height:100%;
+          word-spacing:0px;
+          writing-mode:lr-tb;
+          text-align:start;
+          text-anchor:left;
+        }
+        .text-center {
+          text-align:center;
+          text-anchor:middle;
+        }
+        .title-major {
+          text-align:center;
+          text-anchor:middle;
+          font-size:6;
+          fill:white;
+          fill-opacity:1;
+        }
+        .title-minor {
+          text-align:center;
+          text-anchor:middle;
+          font-size:4;
+          fill:white;
+          fill-opacity:1;
+        }
+        .text-legend {
+          font-size:3;
+        }
+        .text-legend-small {
+          font-size:2.5;
+        }
+        .key-big {
+          text-align:center;
+          text-anchor:middle;
+          font-size:3;
+        }
+        .newkey-big {
+          text-align:center;
+          text-anchor:middle;
+          font-size:3;
+          fill:green;
+          fill-opacity:1;
+        }
+        .key-normal {
+          text-align:center;
+          text-anchor:middle;
+          font-size:2.5;
+        }
+        .newkey-normal {
+          text-align:center;
+          text-anchor:middle;
+          font-size:2.5;
+          fill:green;
+          fill-opacity:1;
+        }
+        .deadkey-normal {
+          text-align:center;
+          text-anchor:middle;
+          font-size:2.5;
+          fill:blue;
+          fill-opacity:1;
+        }
+        .key-condensed {
+          text-align:center;
+          text-anchor:middle;
+          font-size:2;
+        }
+      </style>
+      <symbol id="size-1-key">
+         <title id="title6654">Size 1 key</title>
+         <rect id="path-key-body-4" width="7" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal" />
+      </symbol>
+      <symbol id="size-1.25-key">
+         <title id="title6987">Size 1.25 key</title>
+         <rect id="path-key-body-5" width="9" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal system-key" />
+      </symbol>
+      <symbol id="size-1.5-key">
+         <title id="title6992">Size 1.5 key</title>
+         <rect id="path-key-body-6" width="11" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal system-key" />
+      </symbol>
+      <symbol id="size-1.75-key">
+         <title id="title6997">Size 1.75 key</title>
+         <rect id="path-key-body-7" width="13" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal system-key" />
+      </symbol>
+      <symbol id="size-2-key">
+         <title id="title6658">Size 2 key</title>
+         <rect id="path-key-body-8" width="15" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal system-key" />
+      </symbol>
+      <symbol id="size-2.75-key">
+         <title id="title21">Size 2.75 key</title>
+         <rect id="path-key-body-11" width="21" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal system-key" />
+      </symbol>
+      <symbol id="size-5.75-key">
+         <title id="title25">Size 5.75 key</title>
+         <rect id="path-key-body-23" width="45" height="7" x="0.5" y="0.5" rx="1" ry="1" class="line-normal" />
+      </symbol>
+   </defs>
+   <g inkscape:label="Clavier EMN" inkscape:groupmode="layer" id="layer1">
+      <rect class="frame-major" width="190" height="15" x="10" y="10" />
+      <text class="title-major" x="105" y="18">CLAVIER FR Erwan MEYNIER</text>
+      <text class="title-minor" x="105" y="23">À l'usage des électroniciens et physiciens.</text>
+      <rect class="frame-minor" width="190" height="7" x="10" y="27" />
+      <text class="title-minor" x="105" y="32">Plans de base: touches non modifiées, avec shift, avec AltGr et avec shift et AltGr</text>
+      <g id="base-kbd-locations" transform="translate(10,36)">
+         <rect class="frame-content" width="190" height="12" x="0" y="0" />
+         <text class="text-legend" x="2" y="4">Emplacement des caractères sur une touche: </text>
+         <text class="text-legend" x="2" y="7.5">Les touches mortes sont en bleu.</text>
+         <text class="text-legend" x="2" y="11">Les caractères ajoutés sont en vert.</text>
+         <g id="base-key-locations" transform="translate(74,2)">
+            <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            <text class="key-normal" x="2.5" y="6.5">①</text>
+            <text class="key-normal" x="2.5" y="3.25">②</text>
+            <text class="key-normal" x="5.5" y="6.5">③</text>
+            <text class="key-normal" x="5.5" y="3.25">④</text>
+         </g>
+         <text class="text-legend-small" x="84" y="3">①: Caractère de base obtenu sans modification ou caractère minuscule ;</text>
+         <text class="text-legend-small" x="84" y="5.5">②: Caractère obtenu avec shift ou caractère majuscule ;</text>
+         <text class="text-legend-small" x="84" y="8">③: Caractère obtenu avec Alt Gr ;</text>
+         <text class="text-legend-small" x="84" y="10.5">④: Caractère obtenu avec Alt Gr + shift ;</text>
+      </g>
+      <g id="main-kbd" transform="translate(10,48)">
+         <rect class="frame-content" width="190" height="64" x="0" y="0" />
+         <g id="base-kbd" transform="translate(5,2) scale(1.5,1.5)">
+            <g id="vk-oem-7">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">²</text>
+               <text class="newkey-normal" x="2.5" y="3.25">³</text>
+               <text class="newkey-normal" x="5.5" y="6.5">½</text>
+               <text class="newkey-normal" x="5.5" y="3.25">¼</text>
+            </g>
+            <g id="vk-1" transform="translate(8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">&amp;</text>
+               <text class="key-normal" x="2.5" y="3.25">1</text>
+               <text class="newkey-normal" x="5.5" y="6.5">∩</text>
+               <text class="newkey-normal" x="5.5" y="3.25">∪</text>
+            </g>
+            <g id="vk-2" transform="translate(16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">é</text>
+               <text class="key-normal" x="2.5" y="3.25">2</text>
+               <text class="deadkey-normal" x="5.5" y="6.5">~</text>
+            </g>
+            <g id="vk-3" transform="translate(24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">&quot;</text>
+               <text class="key-normal" x="2.5" y="3.25">3</text>
+               <text class="key-normal" x="5.5" y="6.5">#</text>
+            </g>
+            <g id="vk-4" transform="translate(32)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">'</text>
+               <text class="key-normal" x="2.5" y="3.25">4</text>
+               <text class="key-normal" x="5.5" y="6.5">{</text>
+            </g>
+            <g id="vk-5" transform="translate(40)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">(</text>
+               <text class="key-normal" x="2.5" y="3.25">5</text>
+               <text class="key-normal" x="5.5" y="6.5">[</text>
+            </g>
+            <g id="vk-6" transform="translate(48)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">-</text>
+               <text class="key-normal" x="2.5" y="3.25">6</text>
+               <text class="key-normal" x="5.5" y="6.5">|</text>
+               <text class="newkey-normal" x="5.5" y="3.25">−</text>
+            </g>
+            <g id="vk-7" transform="translate(56)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">è</text>
+               <text class="key-normal" x="2.5" y="3.25">7</text>
+               <text class="deadkey-normal" x="5.5" y="6.5">`</text>
+            </g>
+            <g id="vk-8" transform="translate(64)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">_</text>
+               <text class="key-normal" x="2.5" y="3.25">8</text>
+               <text class="key-normal" x="5.5" y="6.5">\</text>
+            </g>
+            <g id="vk-9" transform="translate(72)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">ç</text>
+               <text class="key-normal" x="2.5" y="3.25">9</text>
+               <text class="key-normal" x="5.5" y="6.5">^</text>
+            </g>
+            <g id="vk-0" transform="translate(80)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">à</text>
+               <text class="key-normal" x="2.5" y="3.25">0</text>
+               <text class="key-normal" x="5.5" y="6.5">@</text>
+            </g>
+            <g id="vk-oem4" transform="translate(88)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">)</text>
+               <text class="key-normal" x="2.5" y="3.25">°</text>
+               <text class="key-normal" x="5.5" y="6.5">]</text>
+            </g>
+            <g id="vk-oem-plus" transform="translate(96)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">=</text>
+               <text class="key-normal" x="2.5" y="3.25">+</text>
+               <text class="key-normal" x="5.5" y="6.5">}</text>
+               <text class="newkey-normal" x="5.5" y="3.25">±</text>
+            </g>
+            <g id="backspace" transform="translate(104)">
+               <use xlink:href="#size-2-key" x="0" y="0" width="100%" height="100%" />
+               <path d="M 12,4 H 4 L 6,3.5 v 1 L 4,4" class="line-strong" />
+            </g>
+            <g id="tabulation" transform="translate(0,8)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <path d="M 3,2 V 3 M 3,2.5 4.5,2 V 3 L 3,2.5 H 9 M 9,5 V 6 M 9,5.5 7.5,6 V 5 L 9,5.5 H 3" class="line-strong" />
+            </g>
+            <g id="vk-A" transform="translate(12,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">A</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Æ</text>
+            </g>
+            <g id="vk-Z" transform="translate(20,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">Z</text>
+            </g>
+            <g id="vk-E" transform="translate(28,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">E</text>
+               <text class="key-normal" x="5.5" y="6.5">€</text>
+               <text class="newkey-normal" x="5.5" y="3.25">ε</text>
+            </g>
+            <g id="vk-R" transform="translate(36,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">R</text>
+               <text class="newkey-normal" x="5.5" y="6.5">ρ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">®</text>
+            </g>
+            <g id="vk-T" transform="translate(44,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">T</text>
+               <text class="newkey-normal" x="5.5" y="6.5">τ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">™</text>
+            </g>
+            <g id="vk-Y" transform="translate(52,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">Y</text>
+            </g>
+            <g id="vk-U" transform="translate(60,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">U</text>
+            </g>
+            <g id="vk-I" transform="translate(68,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">I</text>
+            </g>
+            <g id="vk-O" transform="translate(76,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">O</text>
+               <text class="newkey-normal" x="5.5" y="6.5">ω</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Ω</text>
+            </g>
+            <g id="vk-P" transform="translate(84,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">P</text>
+               <text class="newkey-normal" x="5.5" y="6.5">π</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Π</text>
+            </g>
+            <g id="vk-oem6" transform="translate(92,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="deadkey-normal" x="2.5" y="6.5">^</text>
+               <text class="deadkey-normal" x="2.5" y="3.25">¨</text>
+               <text class="deadkey-normal" x="5.5" y="6.5">´</text>
+               <text class="deadkey-normal" x="5.5" y="3.25">`</text>
+            </g>
+            <g id="vk-oem1" transform="translate(100,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">$</text>
+               <text class="key-normal" x="2.5" y="3.25">£</text>
+               <text class="key-normal" x="5.5" y="6.5">¤</text>
+            </g>
+            <g id="return" transform="translate(108,8)">
+               <path class="line-normal system-key" d="m 1.5,0.5 h 9 c 0.55,0 1,0.45 1,1 v 13 c 0,0.55 -0.45,1 -1,1 h -7 c -0.55,0 -1,-0.5 -1,-1 v -6 c 0,-0.55 -0.45,-1 -1,-1 -0.5,0 -1,-0.5 -1,-1 v -5 c 0,-0.55 0.45,-1 1,-1 z" sodipodi:nodetypes="ssssssscccss" />
+               <path d="M 9,6 V 7 H 4 L 6,6.5 v 1 L 4,7" id="path12231-1" class="line-strong" sodipodi:nodetypes="cccccc" />
+            </g>
+            <g id="caps-lock" transform="translate(0,16)">
+               <use xlink:href="#size-1.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="7" y="4.5">Caps Lock</text>
+            </g>
+            <g id="vk-Q" transform="translate(14,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">Q</text>
+            </g>
+            <g id="vk-S" transform="translate(22,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">S</text>
+               <text class="newkey-normal" x="5.5" y="6.5">σ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Σ</text>
+            </g>
+            <g id="vk-D" transform="translate(30,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">D</text>
+               <text class="newkey-normal" x="5.5" y="6.5">δ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Δ</text>
+            </g>
+            <g id="vk-F" transform="translate(38,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">F</text>
+               <text class="newkey-normal" x="5.5" y="6.5">φ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Φ</text>
+            </g>
+            <g id="vk-G" transform="translate(46,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">G</text>
+               <text class="newkey-normal" x="5.5" y="6.5">γ</text>
+            </g>
+            <g id="vk-H" transform="translate(54,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">H</text>
+            </g>
+            <g id="vk-J" transform="translate(62,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">J</text>
+            </g>
+            <g id="vk-K" transform="translate(70,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">K</text>
+            </g>
+            <g id="g326" transform="translate(78,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">L</text>
+               <text class="newkey-normal" x="5.5" y="6.5">λ</text>
+               <text class="newkey-normal" x="5.5" y="3.25">Λ</text>
+            </g>
+            <g id="vk-M" transform="translate(86,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">M</text>
+            </g>
+            <g id="vk-oem3" transform="translate(94,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">%</text>
+               <text class="key-normal" x="2.5" y="3.25">ù</text>
+               <text class="newkey-normal" x="5.5" y="6.5">⁑</text>
+               <text class="newkey-normal" x="5.5" y="3.25">⁂</text>
+            </g>
+            <g id="vk-oem5" transform="translate(102,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">*</text>
+               <text class="key-normal" x="2.5" y="3.25">µ</text>
+               <text class="newkey-normal" x="5.5" y="6.5">×</text>
+               <text class="newkey-normal" x="5.5" y="3.25">·</text>
+            </g>
+            <g id="left-shift" transform="translate(0,24)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Shift</text>
+            </g>
+            <g id="vk-oem102" transform="translate(10,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">&lt;</text>
+               <text class="key-normal" x="2.5" y="3.25">&gt;</text>
+               <text class="newkey-normal" x="5.5" y="6.5">≤</text>
+               <text class="newkey-normal" x="5.5" y="3.25">≥</text>
+            </g>
+            <g id="vk-W" transform="translate(18,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">W</text>
+               <text class="newkey-normal" x="5.5" y="6.5">«</text>
+            </g>
+            <g id="vk-X" transform="translate(26,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">X</text>
+               <text class="newkey-normal" x="5.5" y="6.5">»</text>
+            </g>
+            <g id="vk-C" transform="translate(34,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">C</text>
+               <text class="newkey-normal" x="5.5" y="6.5">©</text>
+            </g>
+            <g id="g434" transform="translate(42,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">V</text>
+            </g>
+            <g id="vk-B" transform="translate(50,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">B</text>
+               <text class="newkey-normal" x="5.5" y="6.5">β</text>
+            </g>
+            <g id="vk-N" transform="translate(58,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="3.25">N</text>
+               <text class="newkey-normal" x="5.5" y="6.5">ν</text>
+               <text class="newkey-normal" x="5.5" y="3.25">№</text>
+            </g>
+            <g id="vk-oem-comma" transform="translate(66,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">,</text>
+               <text class="key-normal" x="2.5" y="3.25">?</text>
+               <text class="newkey-normal" x="5.5" y="6.5">⁉</text>
+            </g>
+            <g id="vk-oem-period" transform="translate(74,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">;</text>
+               <text class="key-normal" x="2.5" y="3.25">.</text>
+               <text class="newkey-normal" x="5.5" y="6.5">…</text>
+               <text class="newkey-normal" x="5.5" y="3.25">•</text>
+            </g>
+            <g id="vk-oem2" transform="translate(82,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">:</text>
+               <text class="key-normal" x="2.5" y="3.25">/</text>
+               <text class="newkey-normal" x="5.5" y="6.5">÷</text>
+               <text class="newkey-normal" x="5.5" y="3.25">⁄</text>
+            </g>
+            <g id="vk-oem8" transform="translate(90,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">!</text>
+               <text class="key-normal" x="2.5" y="3.25">§</text>
+               <text class="newkey-normal" x="5.5" y="6.5">‼</text>
+               <text class="newkey-normal" x="5.5" y="3.25"></text>
+            </g>
+            <g id="right-shift" transform="translate(98,24)">
+               <use xlink:href="#size-2.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="11" y="4.5">Shift</text>
+            </g>
+            <g id="left-control" transform="translate(0,32)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="6" y="4.5">Ctrl</text>
+            </g>
+            <g id="left-windows" transform="translate(12,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Win</text>
+            </g>
+            <g id="alt" transform="translate(22,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Alt</text>
+            </g>
+            <g id="vk-space" transform="translate(32,32)">
+               <use xlink:href="#size-5.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="23" y="4.5">Espace</text>
+            </g>
+            <g id="g586" transform="translate(78,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Alt Gr</text>
+            </g>
+            <g id="g594" transform="translate(88,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Win</text>
+            </g>
+            <g id="menu" transform="translate(98,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Menu</text>
+            </g>
+            <g id="right-control" transform="translate(108,32)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="6" y="4.5">Ctrl</text>
+            </g>
+         </g>
+      </g>
+      <rect class="frame-minor" width="190" height="7" x="10" y="114" />
+      <text class="title-minor" x="105" y="119">Touches mortes des plans de base</text>
+      <g id="dead-keys-map-col1" transform="translate(10,123)">
+         <rect class="frame-content" width="16" height="48" x="0" y="0" />
+         <rect class="frame-hightlight" width="2" height="47" x="1" y="0.5" />
+         <rect class="frame-hightlight" width="2" height="47" x="7" y="0.5" />
+         <rect class="frame-hightlight" width="2" height="47" x="13" y="0.5" />
+         <text class="newkey-big" x="2" y="3"><tspan x="2 5 8 11 14">´+e=é</tspan></text>
+         <text class="newkey-big" x="2" y="7"><tspan x="2 5 8 11 14">´+E=É</tspan></text>
+         <text class="newkey-big" x="2" y="11"><tspan x="2 5 8 11 14">´+ =´</tspan></text>
+      </g>
+      <g id="dead-keys-map-col2" transform="translate(26,123)">
+         <rect class="frame-content" width="16" height="48" x="0" y="0" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="0.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="6.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="12.8" y="0.5" />
+         <text class="key-big" x="2" y="3"><tspan x="2 5 8 11 14">`+e=è</tspan></text>
+         <text class="key-big" x="2" y="7"><tspan x="2 5 8 11 14">`+u=ù</tspan></text>
+         <text class="key-big" x="2" y="11"><tspan x="2 5 8 11 14">`+i=ì</tspan></text>
+         <text class="key-big" x="2" y="15"><tspan x="2 5 8 11 14">`+o=ò</tspan></text>
+         <text class="key-big" x="2" y="19"><tspan x="2 5 8 11 14">`+a=à</tspan></text>
+         <text class="key-big" x="2" y="23"><tspan x="2 5 8 11 14">`+E=È</tspan></text>
+         <text class="key-big" x="2" y="27"><tspan x="2 5 8 11 14">`+U=Ù</tspan></text>
+         <text class="key-big" x="2" y="31"><tspan x="2 5 8 11 14">`+I=Ì</tspan></text>
+         <text class="key-big" x="2" y="35"><tspan x="2 5 8 11 14">`+O=Ò</tspan></text>
+         <text class="key-big" x="2" y="39"><tspan x="2 5 8 11 14">`+A=À</tspan></text>
+         <text class="key-big" x="2" y="43"><tspan x="2 5 8 11 14">`+ =`</tspan></text>
+      </g>
+      <g id="dead-keys-map-col3" transform="translate(42,123)">
+         <rect class="frame-content" width="16" height="48" x="0" y="0" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="0.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="6.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="12.8" y="0.5" />
+         <text class="key-big" x="2" y="3"><tspan x="2 5 8 11 14">^+e=ê</tspan></text>
+         <text class="key-big" x="2" y="7"><tspan x="2 5 8 11 14">^+u=û</tspan></text>
+         <text class="key-big" x="2" y="11"><tspan x="2 5 8 11 14">^+i=î</tspan></text>
+         <text class="key-big" x="2" y="15"><tspan x="2 5 8 11 14">^+o=ô</tspan></text>
+         <text class="key-big" x="2" y="19"><tspan x="2 5 8 11 14">^+a=â</tspan></text>
+         <text class="key-big" x="2" y="23"><tspan x="2 5 8 11 14">^+E=Ê</tspan></text>
+         <text class="key-big" x="2" y="27"><tspan x="2 5 8 11 14">^+U=Û</tspan></text>
+         <text class="key-big" x="2" y="31"><tspan x="2 5 8 11 14">^+I=Î</tspan></text>
+         <text class="key-big" x="2" y="35"><tspan x="2 5 8 11 14">^+O=Ô</tspan></text>
+         <text class="key-big" x="2" y="39"><tspan x="2 5 8 11 14">^+A=Â</tspan></text>
+         <text class="newkey-big" x="2" y="43"><tspan x="2 5 8 11 14">^+==≙</tspan></text>
+         <text class="key-big" x="2" y="47"><tspan x="2 5 8 11 14">^+ =^</tspan></text>
+      </g>
+      <g id="dead-keys-map-col4" transform="translate(58,123)">
+         <rect class="frame-content" width="16" height="48" x="0" y="0" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="0.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="6.8" y="0.5" />
+         <rect class="frame-hightlight" width="2.4" height="47" x="12.8" y="0.5" />
+         <text class="key-big" x="2" y="3"><tspan x="2 5 8 11 14">~+n=ñ</tspan></text>
+         <text class="key-big" x="2" y="7"><tspan x="2 5 8 11 14">~+o=õ</tspan></text>
+         <text class="key-big" x="2" y="11"><tspan x="2 5 8 11 14">~+a=ã</tspan></text>
+         <text class="key-big" x="2" y="15"><tspan x="2 5 8 11 14">^+N=Ñ</tspan></text>
+         <text class="key-big" x="2" y="19"><tspan x="2 5 8 11 14">^+O=Õ</tspan></text>
+         <text class="key-big" x="2" y="23"><tspan x="2 5 8 11 14">^+A=Ã</tspan></text>
+         <text class="newkey-big" x="2" y="27"><tspan x="2 5 8 11 14">~+==≌</tspan></text>
+         <text class="newkey-big" x="2" y="31"><tspan x="2 5 8 11 14">~+~=≈</tspan></text>
+         <text class="key-big" x="2" y="35"><tspan x="2 5 8 11 14">~+ =~</tspan></text>
+      </g>
+      <rect class="frame-minor" width="190" height="7" x="10" y="173" />
+      <text class="title-minor" x="105" y="178">Caractères accessibles en verouillage majuscule sans shift</text>
+      <g id="caps-lock-keys" transform="translate(10,182)">
+         <rect class="frame-content" width="190" height="10" x="0" y="0" />
+         <text class="text-legend" x="2" y="4">L'utilisation du verouillage majuscules permet d'écrire naturellement les lettre capitales accentués.</text>
+         <text class="text-legend" x="2" y="8">Les touches é, è, à, ù et ç sont converties respectivement en É, È, À, Ù et Ç.</text>
+      </g>
+      <rect class="frame-minor" width="190" height="7" x="10" y="194" />
+      <text class="title-minor" x="105" y="199">Caractères accessibles avec la touche contrôle enfoncée</text>
+      <g id="control-keys" transform="translate(10,203)">
+         <rect class="frame-content" width="190" height="18" x="0" y="0" />
+         <text class="text-legend" x="2" y="4">Emplacement des caractères sur une touche: </text>
+         <text class="text-legend" x="2" y="8">Les caractères ajoutés sont en vert.</text>
+         <text class="text-legend" x="2" y="12">Ce mode permet principalement l'accès à des caractères indicés et exponentiés.</text>
+         <text class="text-legend" x="2" y="16">Ce mode permet traditionnellement de transmettre des caractères de contrôle qui sont donnés ici à titre indicatif.</text>
+         <g id="g738" transform="translate(74,1)">
+            <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            <text class="key-normal" x="2.5" y="6.5">①</text>
+            <text class="key-normal" x="2.5" y="3.25">②</text>
+         </g>
+         <text class="text-legend-small" x="84" y="4.5">①: Caractère de base obtenu avec control ;</text>
+         <text class="text-legend-small" x="84" y="7.5">②: Caractère obtenu avec control + shift.</text>
+      </g>
+      <g id="control-kbd" transform="translate(10,221)">
+         <rect class="frame-content" width="190" height="64" x="0" y="0" />
+         <g id="g1226" transform="translate(5,2) scale(1.5,1.5)">
+            <g id="g761">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">ₙ</text>
+               <text class="newkey-normal" x="2.5" y="3.25">ⁿ</text>
+            </g>
+            <g id="g773" transform="translate(8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₁</text>
+               <text class="newkey-normal" x="2.5" y="3.25">¹</text>
+            </g>
+            <g id="g785" transform="translate(16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₂</text>
+               <text class="newkey-normal" x="2.5" y="3.25">²</text>
+            </g>
+            <g id="g797" transform="translate(24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₃</text>
+               <text class="newkey-normal" x="2.5" y="3.25">³</text>
+            </g>
+            <g id="g809" transform="translate(32)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₄</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁴</text>
+            </g>
+            <g id="g821" transform="translate(40)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₅</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁵</text>
+            </g>
+            <g id="g833" transform="translate(48)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₆</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁶</text>
+            </g>
+            <g id="g845" transform="translate(56)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₇</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁷</text>
+            </g>
+            <g id="g857" transform="translate(64)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₈</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁸</text>
+            </g>
+            <g id="g869" transform="translate(72)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₉</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁹</text>
+            </g>
+            <g id="g881" transform="translate(80)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₀</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁰</text>
+            </g>
+            <g id="vk-oem-4-2" transform="translate(88)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₋</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁻</text>
+            </g>
+            <g id="vk-oem-plus-2" transform="translate(96)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="2.5" y="6.5">₊</text>
+               <text class="newkey-normal" x="2.5" y="3.25">⁺</text>
+            </g>
+            <g id="backspace-2" transform="translate(104)">
+               <use xlink:href="#size-2-key" x="0" y="0" width="100%" height="100%" />
+               <path d="M 12,4 H 4 L 6,3.5 v 1 L 4,4" class="line-strong" />
+            </g>
+            <g id="tabulation-2" transform="translate(0,8)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <path d="M 3,2 V 3 M 3,2.5 4.5,2 V 3 L 3,2.5 H 9 M 9,5 V 6 M 9,5.5 7.5,6 V 5 L 9,5.5 H 3" class="line-strong" />
+            </g>
+            <g id="vk-A-2" transform="translate(12,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␁</text>
+            </g>
+            <g id="vk-Z-2" transform="translate(20,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␚</text>
+            </g>
+            <g id="vk-E-2" transform="translate(28,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␅</text>
+            </g>
+            <g id="vk-R-2" transform="translate(36,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␒</text>
+            </g>
+            <g id="vk-T-2" transform="translate(44,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␔</text>
+            </g>
+            <g id="vk-Y-2" transform="translate(52,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␙</text>
+            </g>
+            <g id="vk-U-2" transform="translate(60,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␕</text>
+            </g>
+            <g id="vk-I-2" transform="translate(68,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␉</text>
+            </g>
+            <g id="vk-O-2" transform="translate(76,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␏</text>
+            </g>
+            <g id="vk-P-2" transform="translate(84,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␐</text>
+            </g>
+            <g id="vk-oem6-2" transform="translate(92,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␛</text>
+            </g>
+            <g id="vk-oem1-2" transform="translate(100,8)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␝</text>
+            </g>
+            <g id="return-2" transform="translate(108,8)">
+               <path class="line-normal system-key" d="m 1.5,0.5 h 9 c 0.55,0 1,0.45 1,1 v 13 c 0,0.55 -0.45,1 -1,1 h -7 c -0.55,0 -1,-0.5 -1,-1 v -6 c 0,-0.55 -0.45,-1 -1,-1 -0.5,0 -1,-0.5 -1,-1 v -5 c 0,-0.55 0.45,-1 1,-1 z" />
+               <path d="M 9,6 V 7 H 4 L 6,6.5 v 1 L 4,7" class="line-strong" />
+            </g>
+            <g id="caps-lock-2" transform="translate(0,16)">
+               <use xlink:href="#size-1.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="7" y="4.5">Caps Lock</text>
+            </g>
+            <g id="vk-Q-2" transform="translate(14,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␑</text>
+            </g>
+            <g id="vk-S-2" transform="translate(22,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␓</text>
+            </g>
+            <g id="vk-D-2" transform="translate(30,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␄</text>
+            </g>
+            <g id="vk-F-2" transform="translate(38,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␆</text>
+            </g>
+            <g id="vk-G-2" transform="translate(46,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␇</text>
+            </g>
+            <g id="vk-H-2" transform="translate(54,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␈</text>
+            </g>
+            <g id="vk-J-2" transform="translate(62,16)">
+               <text class="key-normal" x="2.5" y="6.5">␊</text>
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            </g>
+            <g id="vk-K-2" transform="translate(70,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␋</text>
+            </g>
+            <g id="vk-L-2" transform="translate(78,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␌</text>
+            </g>
+            <g id="vk-M-2" transform="translate(86,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␍</text>
+            </g>
+            <g id="vk-oem3-2" transform="translate(94,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␞</text>
+            </g>
+            <g id="vk-oem5-2" transform="translate(102,16)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␜</text>
+            </g>
+            <g id="left-shift-2" transform="translate(0,24)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Shift</text>
+            </g>
+            <g id="vk-oem102-2" transform="translate(10,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            </g>
+            <g id="vk-W-2" transform="translate(18,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␗</text>
+            </g>
+            <g id="vk-X-2" transform="translate(26,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␘</text>
+            </g>
+            <g id="vk-C-2" transform="translate(34,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␃</text>
+            </g>
+            <g id="vk-V-2" transform="translate(42,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␖</text>
+            </g>
+            <g id="vk-B-2" transform="translate(50,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␂</text>
+            </g>
+            <g id="vk-N-2" transform="translate(58,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␎</text>
+            </g>
+            <g id="vk-oem-comma-2" transform="translate(66,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            </g>
+            <g id="vk-oem-period-2" transform="translate(74,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            </g>
+            <g id="vk-oem2-2" transform="translate(82,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+            </g>
+            <g id="vk-oem8-2" transform="translate(90,24)">
+               <use xlink:href="#size-1-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-normal" x="2.5" y="6.5">␟</text>
+            </g>
+            <g id="right-shift-2" transform="translate(98,24)">
+               <use xlink:href="#size-2.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="11" y="4.5">Shift</text>
+            </g>
+            <g id="left-control-2" transform="translate(0,32)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="6" y="4.5">Ctrl</text>
+            </g>
+            <g id="left-windows-2" transform="translate(12,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Win</text>
+            </g>
+            <g id="alt-2" transform="translate(22,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Alt</text>
+            </g>
+            <g id="vk-space-2" transform="translate(32,32)">
+               <use xlink:href="#size-5.75-key" x="0" y="0" width="100%" height="100%" />
+               <text class="newkey-normal" x="23" y="4.5">Espace insécable</text>
+            </g>
+            <g id="alt-graphic-2" transform="translate(78,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Alt Gr</text>
+            </g>
+            <g id="rigt-windows-2" transform="translate(88,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Win</text>
+            </g>
+            <g id="menu-2" transform="translate(98,32)">
+               <use xlink:href="#size-1.25-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="5" y="4.5">Menu</text>
+            </g>
+            <g id="right-control-2" transform="translate(108,32)">
+               <use xlink:href="#size-1.5-key" x="0" y="0" width="100%" height="100%" />
+               <text class="key-condensed" x="6" y="4.5">Ctrl</text>
+            </g>
+         </g>
+      </g>
+      <text class="text-legend" x="10" y="289">Auteur: Erwan MEYNIER. Travail sous licence Creative Commons CC-BY-SA. Version 2023-05-20</text>
+   </g>
+</svg>
